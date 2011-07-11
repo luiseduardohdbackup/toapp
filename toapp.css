@@ -1,0 +1,58 @@
+#toapp{
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  position: absolute;
+}
+#toapp #toapp_window{
+  font-family: Helvetica;
+  width: 85%;
+  max-height: 90%;
+  top: 5%;
+  left: 5%;
+  z-index: 1001;
+  position: absolute;
+  border-radius: 2em;
+  -webkit-box-shadow: 0px 10px 20px #333333, inset -10px -10px 120px #cccccc, inset 0px 0px 120px #cccccc;
+  border: 5px solid black;
+	background: -webkit-gradient(linear, left top, left bottom, from(gray), to(#f2f2f2));
+}
+#toapp.iphone #toapp_window{
+  -webkit-box-reflect:below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(0,0,0,0.5)));  
+}
+#toapp h1{
+  text-align: center;
+  text-shadow: white 0 0.1em 0.1em;
+  font-weight: bold;
+  font-size: 3.6em;
+  margin: 1em 1em 1em 1em;  
+}
+#toapp a{
+  display: block;
+  padding: 20px;
+  margin: 0px auto;
+  margin-bottom: 1em;
+  width: 60%;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	padding: .5em 2em .55em;
+	text-shadow: 0 4px 4px rgba(0,0,0,.3);
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+  font-size: 3.1em;
+}
+#toapp #toapp_confirm_link{
+  font-weight: bold;  
+}
+#toapp p{
+  font-size: 3em;
+  margin: 0em 1em 1em 1em;
+}
