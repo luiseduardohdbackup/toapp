@@ -19,7 +19,7 @@ var ToApp = {
   
   // init ToApp. For a sample and configuration options, view the Readme
   init: function(config){
-    ToApp.util.eraseCookie('toapp_user_action') // for debugging on phone uncomment this
+    // ToApp.util.eraseCookie('toapp_user_action') // for debugging on phone uncomment this
     
     if(ToApp.util.readCookie('toapp_user_action') != 'skip'){
       if(/Webkit/i.test(navigator.userAgent)){
