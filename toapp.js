@@ -73,6 +73,7 @@ var ToApp = {
     document.getElementsByTagName('body')[0].innerHTML += html
     
     document.getElementById('toapp_confirm_link').onclick = function(){
+      document.getElementById('toapp').outerHTML = ''      
       ToApp.redirect_to_store(config)
     }    
     
